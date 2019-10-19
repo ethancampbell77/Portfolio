@@ -1,0 +1,178 @@
+/* Custom CSS for Portfolio */
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/* Background  */
+body {
+    background-color: white;
+    /* background-image: url(images/bgTextureLight3.png); */
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(36, 36, 35);
+    margin-left: 3%;
+    /* text-shadow: 1px 0px 4px rgb(56, 55, 55); */
+}
+
+/* EC Logo Image  */
+img.mainLogo {
+    width: 60%;
+    height: auto;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-bottom: 10%;
+    margin-left: auto;
+    display: block;
+}
+
+div.footer {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 5px;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/* +++++ Bio Page Styling +++++ */
+img.myPic {
+    width: 80%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+div.myBio {
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+
+div.bioDiv {
+    padding-top: 10%;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/* +++++ Apps Page Styling +++++ */
+h1.portLink {
+    color: rgb(36, 36, 35);
+    margin-top: 15%;
+    margin-left: 80px;
+    font-family: 'Lato', sans-serif;
+    /* text-shadow: 1px 1px 4px rgb(56, 55, 55); */
+}
+.portImgSize {
+    width: 350px;
+    max-height: 200px;
+    margin-top: 60px;
+    box-shadow: 2px -2px 8px rgb(56, 55, 55);
+}
+
+.portImgSize2 {
+    width: 350px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    box-shadow: 2px -2px 8px rgb(56, 55, 55);
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/* +++++ Design Page Styling +++++ */
+.logoStyle {
+    width: 250px;
+    height: auto;
+    margin-top: 60px;
+     margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.logoStyle2 {
+    width: 250px;
+    height: auto;
+    margin-top: 110px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.logoStyleAlt {
+    width: 300px;
+    height: auto;
+    margin-top: 60px;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-left: auto;
+    display: block;
+}
+/*+++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/* +++++ Contact Page Styling +++++ */
+div.linkDiv {
+    margin-top: 20%;
+    text-align: center;
+}
+
+h2.contHead {
+    color: rgb(48, 47, 47);
+    font-weight: bold; 
+    font-family: 'Lato', sans-serif;
+}
+
+a.linkStyle {
+    font-size: 20px;
+    color: rgb(39, 38, 38);
+    font-weight: 800;
+    font-family: 'Lato', sans-serif;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/* Media Queries for Responsive Behavior and Smart Devices */
+
+/* 1050 Px Breakpoint */
+@media (max-width: 1050px) {
+    img.mainLogo  {
+        margin-top: 25%;
+    }
+    div.linkDiv {
+        margin-top: 45%;
+    }
+}
+
+/* 800 Px Breakpoint */
+@media (max-width: 800px) {
+    div.myBio {
+        padding-top: 10%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    div.bioDiv {
+        margin-top: 10%;
+    }
+    h1.portLink {
+        margin-left: 30px;
+    }
+    .logoStyleAlt {
+        width: 300px;
+        height: auto;
+    }
+}
+
+/* 600 Px Breakpoint */
+@media (max-width: 600px) {
+    img.mainLogo  {
+        margin-top: 30%;
+    }  
+}
+
+/* 550 Px Breakpoint */
+@media (max-width: 550px) {
+    img.mainLogo  {
+        margin-top: 40%;
+    }  
+}
