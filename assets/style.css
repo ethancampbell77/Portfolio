@@ -31,7 +31,12 @@ img.mainLogo {
     margin-bottom: 10%;
     margin-left: auto;
     display: block;
+    animation: bounceIn 2s ease-in-out alternate;
 }
+
+/* img.mainLogo:hover {
+    animation-play-state: paused;
+  } */
 
 div.footer {
     background-color: whitesmoke;
@@ -183,3 +188,18 @@ a.linkStyle {
         margin-top: 40%;
     }  
 }
+
+/* EC Logo Animation */ 
+@keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
