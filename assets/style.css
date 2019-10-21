@@ -94,6 +94,11 @@ h1.portLink {
 /*+++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 /* +++++ Design Page Styling +++++ */
+
+.logoPage {
+    margin-bottom: 10%;
+}
+
 .logoStyle {
     width: 250px;
     height: auto;
@@ -151,9 +156,9 @@ a.linkStyle {
     img.mainLogo  {
         margin-top: 25%;
     }
-    div.linkDiv {
+    /* div.linkDiv {
         margin-top: 30%;
-    }
+    } */
 }
 
 /* 800 Px Breakpoint */
